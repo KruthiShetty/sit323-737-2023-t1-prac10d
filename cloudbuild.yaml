@@ -14,3 +14,7 @@ steps:
   - 'CLOUDSDK_COMPUTE_ZONE=us-west1'
   - 'CLOUDSDK_CONTAINER_CLUSTER=helloworld-cluster'
 
+
+  options:
+   logging: CLOUD_LOGGING_ONLY
+
